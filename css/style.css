@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2? família=Amargo&família=Raleway:wght@200&display=swap');
+body{
+  background: #33CCCC; 
+  animation: color 10s infinite linear;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  
+}@keyframes color {
+    0%   { background: #222; }
+    20%  { background: #333; }
+    40%  { background: #555; }
+    60%  { background: #555; }
+    80%  { background: #333; }
+    100% { background: #222; }
+  }
+header{
+  color: aliceblue;
+
+  max-width: 100%;
+  background-color: #555;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+  font-size: 18px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 800;
+}
+.main{
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+}
+.conteudo{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 4%;
+}
+#img{
+  margin: 0px;
+  height: 500px;
+  max-width: 500px;
+}
+#saida{
+  max-width: 60ch;
+  color: aliceblue;
+  font-weight: 900;
+}
+.tecnologias{
+ display: flex;
+ margin-left: 10px;
+
+}
+section{
+  margin-top: 3%;
+  text-align: center;
+}
+.sectiontech{
+  color: aliceblue;
+}
+.conteudotech{
+  display: none;
+  }
+.imgtech{
+  max-width: 150px;
+  max-height: 200px;
+}
+.active{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+  animation: color 10s infinite linear;
+  z-index: 2;
+}.fecharmodal{
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  border:none;
+  font-family:'Raleway' ;
+  font-weight: 800;
+  font-size: 20px;
+  cursor: pointer;
+}
+.fecharmodal:hover{
+  background-color: red;
+  color: aliceblue;
+}
+
+#btn-mobile{
+  display: none;
+}
+@media (max-width:900px) {
+
+  #btn-mobile{
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Raleway';
+    font-weight: 800;
+  }
+  #btn-mobile:hover{
+    color: aliceblue;
+    background-color:#27ae60 ;
+  }
+  #menu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    right: 0px;
+   background: #555; 
+   height: 100vh;
+   transition: .8s;
+   z-index: 1;
+  }
+  #nav.activemenu #menu {
+    display: block;
+  }
+  #menu li{
+    padding:20px;
+    margin:0;
+  }
+}
