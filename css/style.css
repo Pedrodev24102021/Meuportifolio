@@ -147,4 +147,27 @@ section{
     padding:20px;
     margin:0;
   }
+  .conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 4%;
+  }
+  #saida{
+    margin: 0 10px;
+    max-width: 20ch;
+    color: aliceblue;
+    font-weight: 900;
+  }
+  .active{
+    position: absolute;
+    top: 0;
+    left: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 100%;
+    background-color: #222;
+    animation: color 10s infinite linear;
+    z-index: 2;
+  }
 }
