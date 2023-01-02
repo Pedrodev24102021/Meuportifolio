@@ -162,7 +162,7 @@ section{
   .active{
     position: absolute;
     top: 0;
-    left: -20;
+    left: -20px;
     display: flex;
     flex-wrap: wrap;
     height: 1000px;
