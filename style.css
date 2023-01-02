@@ -17,7 +17,6 @@ body{
   }
 header{
   color: aliceblue;
-
   max-width: 100%;
   background-color: #555;
 }
@@ -162,7 +161,7 @@ section{
   .active{
     position: absolute;
     top: 0;
-    left: 0px;
+    left: 0;
     display: flex;
     flex-wrap: wrap;
     height: 1000px;
@@ -172,4 +171,3 @@ section{
     z-index: 2;
   }
 }
-
