@@ -205,4 +205,9 @@ section{
     animation: color 10s infinite linear;
     z-index: 2;
   }
+   .imgpro{
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px 6px 0px 2px;
+  }
 }
