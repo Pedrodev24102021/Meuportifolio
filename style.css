@@ -74,12 +74,35 @@ section{
 .sectiontech{
   color: aliceblue;
 }
+.sectionprojetos{
+  color: aliceblue;
+}
 .conteudotech{
   display: none;
+  }
+  .conteudoprojetos{
+    display: none;
   }
 .imgtech{
   max-width: 150px;
   max-height: 200px;
+}
+.imgpro{
+  max-width: 300px;
+  max-height: 300px;
+  margin: 10px 10px 0px 2px;
+}
+.activeprojetos{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+  animation: color 10s infinite linear;
+  z-index: 2;
 }
 .active{
   position: absolute;
@@ -92,7 +115,7 @@ section{
   background-color: #222;
   animation: color 10s infinite linear;
   z-index: 2;
-}.fecharmodal{
+}.fecharmodal , .fecharmodalprojetos{
   position: absolute;
   right: 2%;
   bottom: 2%;
@@ -105,7 +128,7 @@ section{
   font-size: 20px;
   cursor: pointer;
 }
-.fecharmodal:hover{
+.fecharmodal:hover, .fecharmodalprojetos:hover{
   background-color: red;
   color: aliceblue;
 }
@@ -159,6 +182,18 @@ section{
     font-weight: 900;
   }
   .active{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    width: 100%;
+    background-color: #222;
+    animation: color 10s infinite linear;
+    z-index: 2;
+  }
+  .activeprojetos{
     position: absolute;
     top: 0;
     left: 0;
