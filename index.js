@@ -47,3 +47,4 @@ function activemenu() {
 }
 
 btnmobile.addEventListener('click', activemenu);
+
