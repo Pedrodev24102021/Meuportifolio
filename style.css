@@ -68,7 +68,6 @@ a{
 
 }
 section{
-  margin-top: 3%;
   text-align: center;
 }
 .sectiontech{
@@ -208,6 +207,6 @@ section{
    .imgpro{
     max-width: 200px;
     max-height: 200px;
-    margin: 0px 4px;
+    margin: 4px;
   }
 }
