@@ -25,6 +25,20 @@ function desativar() {
 }
 desativarmodal.addEventListener('click', desativar);
 ativarmodal.addEventListener('click', active);
+///////////////segundomodal///////
+const ativarmodalprojetos = document.querySelector('.link-projetos');
+const desativarmodalprojetos = document.querySelector('.fecharmodalprojetos');
+
+function activeprojeto() {
+  document.querySelector('.conteudoprojetos').classList.add('activeprojetos');
+}
+function desativarmodalprojeto() {
+  document
+    .querySelector('.conteudoprojetos')
+    .classList.remove('activeprojetos');
+}
+desativarmodalprojetos.addEventListener('click', desativarmodalprojeto);
+ativarmodalprojetos.addEventListener('click', activeprojeto);
 /////menuhamburguer/////
 
 const btnmobile = document.querySelector('#btn-mobile');
