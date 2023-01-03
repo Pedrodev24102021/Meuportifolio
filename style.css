@@ -198,7 +198,7 @@ section{
     left: 0;
     display: flex;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 900px;
     width: 100%;
     background-color: #222;
     animation: color 10s infinite linear;
