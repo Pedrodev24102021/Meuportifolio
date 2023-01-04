@@ -29,6 +29,9 @@ header{
 ul{
   display: flex;
 }
+#ulpro{
+  display: block;
+}
 li{
   list-style: none;
   font-size: 18px;
@@ -49,8 +52,8 @@ a{
 }
 .conteudo{
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin-top: 4%;
+  grid-template-columns: 1fr 1fr;
+  margin:2% 8% 0 8% ;
 }
 #img{
   margin: 0px;
@@ -68,6 +71,7 @@ a{
 
 }
 section{
+  margin-top: 3%;
   text-align: center;
 }
 .sectiontech{
@@ -90,6 +94,7 @@ section{
   max-width: 300px;
   max-height: 300px;
   margin: 10px 10px 0px 2px;
+  
 }
 .activeprojetos{
   position: absolute;
@@ -192,21 +197,23 @@ section{
     animation: color 10s infinite linear;
     z-index: 2;
   }
+  .imgpro{
+    max-width: 250px;
+    max-height: 250px;
+    margin: 10px 10px 0px 2px;
+   
+
+  }
   .activeprojetos{
     position: absolute;
     top: 0;
     left: 0;
     display: flex;
     flex-wrap: wrap;
-    height: 1000px;
+    height: 1400px;
     width: 100%;
     background-color: #222;
     animation: color 10s infinite linear;
     z-index: 2;
-  }
-   .imgpro{
-    max-width: 200px;
-    max-height: 200px;
-    margin: 4px;
   }
 }
