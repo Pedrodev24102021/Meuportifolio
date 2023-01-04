@@ -123,7 +123,7 @@ section{
 }.fecharmodal , .fecharmodalprojetos{
   position: relative;
   right: 2%;
-  bottom: 2%;
+  top: 2%;
   width: 100px;
   padding: 10px;
   border-radius: 10px;
