@@ -121,7 +121,7 @@ section{
   animation: color 10s infinite linear;
   z-index: 2;
 }.fecharmodal , .fecharmodalprojetos{
-  position: absolute;
+  position: relative;
   right: 2%;
   bottom: 2%;
   width: 100px;
